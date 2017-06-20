@@ -33,7 +33,7 @@ export default class BaseMap extends Component {
         <SearchBox />
         <TileLayer
           attribution='&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors'
-          url='http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png'
+          url='http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png'
         />
 
         {routes &&

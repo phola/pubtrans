@@ -19,7 +19,7 @@ class App extends Component {
     const bind = this
     axios
       .get(
-        'https://transit.land/api/v1/routes?bbox=' + bounds
+        'https://transit.land/api/v1/routes?per_page=200&bbox=' + bounds
         //  +
         // '&vehicle_type=bus'
       )
